@@ -63,42 +63,47 @@ html, body {
   background: url(images/Bricks\ Yellow.jpg)
 	center center fixed no-repeat;
 	background-size: cover;
+	margin-bottom: 300px;
 	
 	
 }
 
 .center {
     width: 800px;
+	height: 700px;
 	padding: 2%;
     margin: 100px auto;
  	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	border: 4px solid #17202A;
 }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed red;
+	border: 3px;
 	text-align: center;
+	text-decoration-color: #17202A;
 }
 
 h1 {
+	text-align: center;
 	font-family: questa, serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 2em;
+	font-size: 1.5em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: #17202A;
+	margin-top: 0px;
 }
 
 h2 {
 	font-family: questa, serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 1.5em;
+	font-size: 1.2em;
     line-height: 1.4;
-    color: #fff;
+    color: #17202A;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
@@ -107,9 +112,9 @@ p {
 	font-family: questa, serif;
 	font-weight: 400;
 	font-style: normal;		
-	font-size: 1.2em;
-    line-height: 1.6;
-    color: #fff;
+	font-size: 1.1em;
+    line-height: 1.0;
+    color: #17202A;
 }
   
 nav{
@@ -117,7 +122,7 @@ nav{
 	font-size: 1.2em;
 	width: 400px;
 	margin: 0 auto;
-	border: dashed turquoise;
+	border: solid #17202A;
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em; 
@@ -133,12 +138,12 @@ nav a{
 	}
 
 a{
-	color:#444;
+	color:#17202A;
 	text-decoration: none;
 	font-weight: bold;
 	}
 a:hover{
 	color:black;
-	background:pink;
+	background:#CD5C5C;
 	}
 
