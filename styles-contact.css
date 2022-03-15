@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/istockphoto-168510776-612x612.jpg)
+  background: url(images/swirly_bluegreen_background.jpg)
 	center center fixed no-repeat;
 	background-size: cover;
 	margin-bottom: 300px;
@@ -73,7 +73,7 @@ html, body {
 	height: 700px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(5, 121, 255, 0.75); /*this uses opacity of 75% for the background color*/
+ 	background: #B3D99D(5, 121, 255, 0.75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 	
 }
@@ -88,7 +88,7 @@ html, body {
 
 h1 {
 	text-align: center;
-	font-family: tomarik-display-line, serif;
+	font-family: continuo, serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 1.5em;
@@ -98,18 +98,27 @@ h1 {
 }
 
 h2 {
-	font-family: tomarik-display-line, sans-serif;
+	font-family: continuo, sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 1.2em;
-    line-height: 1.4;
+    line-height: 2.2;
     color: #0F3F65;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
-
+h3 {
+	font-family: continuo, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.2em;
+    line-height: 0;
+    color: #0F3F65;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
 p {
-	font-family: tomarik-display-line, serif;
+	font-family: continuo, serif;
 	font-weight: 400;
 	font-style: normal;		
 	font-size: 1.1em;
@@ -118,7 +127,7 @@ p {
 }
   
 nav{
-	font-family: tomarik-display-line, serif;
+	font-family: continuo, serif;
 	font-size: 1.2em;
 	width: 400px;
 	margin: 0 auto;
@@ -143,7 +152,7 @@ a{
 	font-weight: bold;
 	}
 a:hover{
-	color:#C3D8E8;
+	color:#AAE0F4;
 	background:#0F3F65;
 	}
 
